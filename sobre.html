@@ -12,26 +12,61 @@
 
     <main>
       <section>
-        <h2>Quem sou eu</h2>
+        <h2>ENVIE UMA MENSSAGEM PARA O BROCASITO!!!</h2>
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNQGSBuCA2VyvFMcBj6Q5Kdq8gZZeIdBApgQ&s"
           alt="Foto de perfil"
         />
         <a href="https://github.com/vmscgit">vmscgit</a>
       </section>
-
+      <!-- caixa de radio -->
       <section>
         <h2>Envie uma mensagem</h2>
         <form action="#">
-          <label for="nome">Nome completo</label><br />
-          <input type="text" id="nome" name="nome" />
-          <textarea name="menssagem" id="menssagem" rows="5"></textarea> <br />
+          <label for="nome">Nome completo:</label><br />
+          <input type="name" id="nome" name="nome" /><br />
 
-          <label for="linguagens">Linguagens de programação</label><br />
+          <label for="senha">Senha:</label><br />
+          <input type="password" id="senha" name="senha" /><br />
+
+          <label for="mensagem">Mensagem:</label><br />
+          <textarea type="mensagem" id="mensagem" rows="5"></textarea><br />
+
+          <p>Brasil vai ser campeão?</p>
+          <input type="radio" id="sim" name="brasil" value="Sim" />
+          <label for="sim">Sim</label>
+          <input type="radio" id="nao" name="brasil" value="Não" />
+          <label for="nao">Não</label>
+          <br />
+
+          <!-- caixa de seleção -->
+
+          <p>Selecione as seleções favoritas ao título de 2026:</p>
+          <input type="checkbox" id="brasil" name="brasil" value="Brasil" />
+          <label for="brasil">Brasil</label>
+          <input type="checkbox" id="franca" name="franca" value="França" />
+          <label for="franca">França</label>
+          <input
+            type="checkbox"
+            id="alemanha"
+            name="alemanha"
+            value="Alemanha"
+          />
+          <label for="alemanha">Alemanha</label>
+          <input type="checkbox" id="ned" name="ned" value="Países Baixos" />
+          <label for="ned">Países Baixos</label>
+
+          <br />
+
+          <!-- opções -->
+
+          <label for="linguagens">Linguagem web preferida</label><br />
           <select name="linguagens" id="linguagens">
-        
-
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScript</option>
           </select>
+          <button>Enviar Menssagem</button>
         </form>
       </section>
     </main>
