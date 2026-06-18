@@ -10,12 +10,114 @@
       <a href="index.html">Início</a>
     </nav>
 
+    <section>
+      <h2>Núcleo Tecnológias</h2>
+      <table>
+        <thead>
+          <tr>
+            <th rowspan="2"> Disciplinas </th>
+            <th rowspan="4"> semanais por período</th>
+            <th rowspan="2"> Horária</th>
+          </tr>
+          <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Classificação Atual (Grupo C)</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Pos</th>
+            <th>Seleção</th>
+            <th>Pontos</th>
+            <th>Jogos</th>
+            <th>Saldos de Gol</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1°</td>
+            <td>Escócia</td>
+            <td>3</td>
+            <td>1</td>
+            <td>+1</td>
+          </tr>
+          <tr>
+            <td>2°</td>
+            <td>Marrocos</td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+          </tr>
+
+          <tr>
+            <td>3°</td>
+            <td>Brasil</td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+          </tr>
+
+          <tr>
+            <td>4°</td>
+            <td>Haiti</td>
+            <td>1</td>
+            <td>1</td>
+            <td>-1</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Técnico em Infromática</h2>
+      <table>
+        <thead>
+          <!-- tr - table row - adicionar uma linha -->
+          <tr>
+            <!-- th - table header - rótulo da coluna-->
+            <th>Disciplina</th>
+            <th>Carga Horária (h)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <!-- td - table data - valor da célula -->
+            <td>Autoria Web</td>
+            <td>60</td>
+          </tr>
+          <tr>
+            <td>Educação em Tecnoligias Digitais</td>
+            <td>60</td>
+          </tr>
+          <tr>
+            <td>Eletricidade Instrumental</td>
+            <td>60</td>
+          </tr>
+          <tr>
+            <td>Introdução a Programação</td>
+            <td>120</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
     <main>
       <section>
         <h2>ENVIE UMA MENSSAGEM PARA O BROCASITO!!!</h2>
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNQGSBuCA2VyvFMcBj6Q5Kdq8gZZeIdBApgQ&s"
           alt="Foto de perfil"
+          height="200"
+          width="400"
         />
         <a href="https://github.com/vmscgit">vmscgit</a>
       </section>
@@ -24,13 +126,29 @@
         <h2>Envie uma mensagem</h2>
         <form action="#">
           <label for="nome">Nome completo:</label><br />
-          <input type="name" id="nome" name="nome" /><br />
+          <input
+            type="name"
+            id="nome"
+            name="nome"
+            placeholder="Digite seu nome..."
+          /><br />
 
-          <label for="senha">Senha:</label><br />
-          <input type="password" id="senha" name="senha" /><br />
+          <label for="password">Senha:</label><br />
+          <input
+            type="password"
+            id="senha"
+            name="senha"
+            placeholder="Digite sua senha..."
+          /><br />
 
           <label for="mensagem">Mensagem:</label><br />
-          <textarea type="mensagem" id="mensagem" rows="5"></textarea><br />
+          <textarea
+            type="mensagem"
+            id="mensagem"
+            rows="5"
+            placeholder="Deixe uma menssagem"
+          ></textarea
+          ><br />
 
           <p>Brasil vai ser campeão?</p>
           <input type="radio" id="sim" name="brasil" value="Sim" />
