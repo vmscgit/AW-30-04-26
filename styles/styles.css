@@ -1,0 +1,16 @@
+/*  */
+
+h2 {
+    font-family: 'Courier New', Courier, monospace
+    color: purple;
+}
+
+/* Seleção de id  */
+#tabela {
+    text-align: center;
+}
+
+/* Seleção de classe */
+.negrito {
+    font-weight: bold;
+}
