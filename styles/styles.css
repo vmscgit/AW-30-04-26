@@ -14,3 +14,15 @@ h2 {
 .negrito {
     font-weight: bold;
 }
+
+p.courrier {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1, h2, h3 {
+    font-style: italic;
+}
+
+from button {
+    background-color: greenyellow;
+}
