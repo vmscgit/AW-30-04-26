@@ -1,33 +1,50 @@
-/*  */
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Quicksand:wght@300..700&display=swap");
 
+:root {
+  --baltic_blue: #376996;
+  --deep_sea_blue: #1c2f4a;
+  --space_indigo: #21295c;
+  --regal_navy: #1b3b6f;
+  --powder_blue: #9eb3c2;
+}
+
+body {
+  font-family: "Quicksand", "Arial", sans-serif;
+}
+
+/* Seleção de elemento */
 h2 {
-    font-family: 'Courier New', Courier, monospace
-    color: purple;
+  font-family: "Courier New", Courier, monospace;
+  color: rgba(55, 105, 150, 0.8);
 }
 
-/* Seleção de id  */
+/* Seleção de id */
 #tabela {
-    text-align: center;
+  text-align: center;
+  background-color: #1c2f4a;
+  color: #1c2f4a;
 }
-
 /* Seleção de classe */
 .negrito {
-    font-weight: bold;
+  font-weight: bold;
 }
 
-p.courrier {
-    font-family: 'Courier New', Courier, monospace;
-}
-
-h1, h2, h3 {
-    font-style: italic;
+h1,
+h2,
+h3 {
+  font-style: italic;
 }
 
 form button {
-    background-color: greenyellow;
+  background-color: brown;
 }
 
+/* form input {
+  background-color: #484349;
+  color: #071E22;
+} */
+
 img {
-    height: 100px;
-    border-radius: ;
+  height: 400px;
+  border-radius: 40%;
 }
