@@ -23,6 +23,11 @@ h1, h2, h3 {
     font-style: italic;
 }
 
-from button {
+form button {
     background-color: greenyellow;
+}
+
+img {
+    height: 100px;
+    border-radius: ;
 }
