@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@700;800&display=swap');
+
+:root {
+
+  --cor-fundo-body: #f4f7f6;
+  --cor-texto-body: #2d3748;
+  
+  --cor-principal: #00b7ff;   
+  --cor-texto-claro: #ffffff;
+  --cor-destaque: #3ad6ce;
+  
+
+  --cor-id-inicio: #e2e8f0;
+  --cor-id-resto: #edf2f7;
+  --cor-borda-id: #cbd5e1;
+
+  /* Fontes */
+  --fonte-corpo: 'Inter', sans-serif;
+  --fonte-titulos: 'Montserrat', sans-serif;
+}
+
+
+body {
+  background-color: var(--cor-fundo-body);
+  color: var(--cor-texto-body);
+  font-family: var(--fonte-corpo);
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: var(--cor-principal);
+  color: var(--cor-texto-claro);
+  padding: 20px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: var(--fonte-titulos);
+  font-weight: 800;
+}
+
+/* ==========================================
+   2. USO DE CLASSES
+   ========================================== */
+/* Títulos com fonte e cor diferente */
+.titulo-secao {
+  font-family: var(--fonte-titulos);
+  color: var(--cor-destaque);
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+/* Box diferenciado para conteúdo */
+.card-programa {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px; /* border-radius leve */
+  padding: 20px;
+  margin: 15px 0;
+  font-size: 0.95rem; /* Um pouco menor que o corpo */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Destaque visual completo para a primeira seção */
+#inicio {
+  background-color: var(--cor-id-inicio);
+  padding: 30px;
+  border-radius: 8px;
+  border: 2px solid var(--cor-destaque);
+}
+
+/* Borda lateral e fundo sutil para as outras seções */
+#programacao, #contato {
+  background-color: var(--cor-id-resto);
+  padding: 25px;
+  margin-top: 20px;
+  border-left: 6px solid var(--cor-principal); /* Borda lateral */
+  border-radius: 0 8px 8px 0;
+}
+
+
+nav ul {
+  list-style: none; /* Não mostrar marcadores */
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+nav ul li {
+  display: inline-block; /* Itens em linha */
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none; /* Sem sublinhado */
+  color: #93c5fd; /* Cor diferente do texto normal (Azul claro) */
+  font-family: var(--fonte-titulos);
+  font-weight: 600;
+  transition: all 0.3s ease;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+/* Efeito Hover */
+nav a:hover {
+  color: var(--cor-texto-claro);
+  background-color: var(--cor-destaque); /* Mudança de cor e background */
+}
