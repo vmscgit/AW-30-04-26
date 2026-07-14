@@ -14,7 +14,7 @@
   --cor-id-resto: #edf2f7;
   --cor-borda-id: #cbd5e1;
 
-  /* Fontes */
+ 
   --fonte-corpo: 'Inter', sans-serif;
   --fonte-titulos: 'Montserrat', sans-serif;
 }
@@ -42,10 +42,7 @@ h1, h2, h3 {
   font-weight: 800;
 }
 
-/* ==========================================
-   2. USO DE CLASSES
-   ========================================== */
-/* Títulos com fonte e cor diferente */
+
 .titulo-secao {
   font-family: var(--fonte-titulos);
   color: var(--cor-destaque);
@@ -54,18 +51,18 @@ h1, h2, h3 {
   margin-bottom: 15px;
 }
 
-/* Box diferenciado para conteúdo */
+
 .card-programa {
   background-color: #ffffff;
   border: 1px solid #e2e8f0;
-  border-radius: 8px; /* border-radius leve */
+  border-radius: 8px; 
   padding: 20px;
   margin: 15px 0;
-  font-size: 0.95rem; /* Um pouco menor que o corpo */
+  font-size: 0.95rem; 
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
-/* Destaque visual completo para a primeira seção */
+
 #inicio {
   background-color: var(--cor-id-inicio);
   padding: 30px;
@@ -73,30 +70,30 @@ h1, h2, h3 {
   border: 2px solid var(--cor-destaque);
 }
 
-/* Borda lateral e fundo sutil para as outras seções */
+
 #programacao, #contato {
   background-color: var(--cor-id-resto);
   padding: 25px;
   margin-top: 20px;
-  border-left: 6px solid var(--cor-principal); /* Borda lateral */
+  border-left: 6px solid var(--cor-principal); 
   border-radius: 0 8px 8px 0;
 }
 
 
 nav ul {
-  list-style: none; /* Não mostrar marcadores */
+  list-style: none; 
   padding: 0;
   margin: 10px 0 0 0;
 }
 
 nav ul li {
-  display: inline-block; /* Itens em linha */
+  display: inline-block; 
   margin: 0 15px;
 }
 
 nav a {
-  text-decoration: none; /* Sem sublinhado */
-  color: #93c5fd; /* Cor diferente do texto normal (Azul claro) */
+  text-decoration: none; 
+  color: #93c5fd; 
   font-family: var(--fonte-titulos);
   font-weight: 600;
   transition: all 0.3s ease;
@@ -104,8 +101,7 @@ nav a {
   border-radius: 4px;
 }
 
-/* Efeito Hover */
 nav a:hover {
   color: var(--cor-texto-claro);
-  background-color: var(--cor-destaque); /* Mudança de cor e background */
+  background-color: var(--cor-destaque); 
 }
