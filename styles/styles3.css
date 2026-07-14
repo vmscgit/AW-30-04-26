@@ -2,17 +2,17 @@
 
 :root {
 
-  --cor-fundo-body: #f4f7f6;
-  --cor-texto-body: #2d3748;
+  --cor-fundo-body: #132b23;
+  --cor-texto-body: #ffffff;
   
-  --cor-principal: #00b7ff;   
+  --cor-principal: #257500;   
   --cor-texto-claro: #ffffff;
-  --cor-destaque: #3ad6ce;
+  --cor-destaque: #1a8100;
   
 
-  --cor-id-inicio: #e2e8f0;
-  --cor-id-resto: #edf2f7;
-  --cor-borda-id: #cbd5e1;
+  --cor-id-inicio: #0d1622;
+  --cor-id-resto: #1d2b38;
+  --cor-borda-id: #111316;
 
  
   --fonte-corpo: 'Inter', sans-serif;
@@ -53,8 +53,8 @@ h1, h2, h3 {
 
 
 .card-programa {
-  background-color: #ffffff;
-  border: 1px solid #e2e8f0;
+  background-color: #130d0d;
+  border: 1px solid #0b0e11;
   border-radius: 8px; 
   padding: 20px;
   margin: 15px 0;
@@ -93,7 +93,7 @@ nav ul li {
 
 nav a {
   text-decoration: none; 
-  color: #93c5fd; 
+  color: #a5fd93; 
   font-family: var(--fonte-titulos);
   font-weight: 600;
   transition: all 0.3s ease;
