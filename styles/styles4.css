@@ -1,0 +1,117 @@
+:root {
+    --cor-fundo: #121212;
+    --cor-card-fundo: #1e1e1e;
+    --cor-destaque: #a5fd93;
+    --cor-texto-claro: #ffffff;
+    --cor-texto-escuro: #b0b0b0;
+    --fonte-titulos: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto-escuro);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1a1a1a;
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 2px solid var(--cor-destaque);
+}
+
+header h1 {
+    color: var(--cor-texto-claro);
+    font-family: var(--fonte-titulos);
+    margin: 0 0 10px 0;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    margin-top: 40px;
+    border-top: 1px solid #333;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.titulo-secao {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid var(--cor-destaque); 
+    display: inline-block;
+    color: var(--cor-texto-claro);
+    font-family: var(--fonte-titulos);
+}
+
+.card-programa {
+    background-color: var(--cor-card-fundo);
+    border: 2px solid var(--cor-destaque);
+    padding: 20px 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px;
+}
+
+.card-programa h3 {
+    margin-top: 0;
+    color: var(--cor-texto-claro);
+}
+
+.card-programa p {
+    margin: 5px 0;
+}
+
+#inicio, #programacao, #contato {
+    padding: 40px 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 15px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: #1a1a1a;
+    padding: 15px 0;
+    margin: 20px 0; 
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--cor-destaque);
+    font-family: var(--fonte-titulos);
+    font-weight: 600;
+    transition: all 0.3s ease;
+    padding: 8px 16px;
+    margin: 0 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+nav a:hover {
+    color: #121212;
+    background-color: var(--cor-destaque);
+    border-color: var(--cor-texto-claro);
+}
